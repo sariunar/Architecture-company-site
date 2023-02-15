@@ -8,19 +8,17 @@
     <title>Architecture Company</title>
     <link rel="shortcut icon" href="images/favicons/favicon.svg">
     <link rel="stylesheet" href="styles/normalize.css">
-    <link rel="stylesheet" href="styles/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
 </head>
 
 <body>
     <header class="header">
         <div class="header__logo">
-            <a class="header__logo-link" href="index.html">
-                <div class="header__home-click"></div>
-            </a>
+            <a class="header__logo-link" href="index.html"></a>
         </div>
         <nav class="header__menu">
             <a class="header__link" href="index.html">Main</a>
@@ -30,10 +28,8 @@
             <a class="header__link" href="contacts.html">Contacts</a>
         </nav>
         <div class="header__menu--narrow">
-            <a class="header__logo-link" href="index.html">
-                <div class="header__home-click"></div>
-            </a>
-            <h2 class="header__title">Menu</h2>
+            <a class="header__logo-link" href="index.html"></a>
+            <p class="header__title">Menu</p>
             <input class="header__click" id="header__click" type="checkbox">
             <label class="header__menu-btn" for="header__click">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
@@ -89,25 +85,25 @@
                 <a href="#" class="intro__project-btn section__btn section__btn--light">VIEW PROJECT &rarr;</a>
             </div>      
         </section>
-
+<!--https://images.unsplash.com/photo-1583512603805-3cc6b41f3edb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1480&q=80-->
         <section class="about">
             <div class="about__content">
                 <div class="about__images">
                     <div class="about__images-group1">
-                        <img class="about___img1" src="pictures/section_about_img1.png" alt="Project photo">
-                        <img class="about__img3" src="pictures/section_about_img3.png" alt="Project photo">
+                        <img class="about__img-top about__images-width" src="pictures/section_about_img1.png" alt="Project photo">
+                        <img class="about__img-bottom about__images-width" src="pictures/section_about_img3.png" alt="Project photo">
                     </div>
-                    <div class="about__images-group2">
-                        <img class="about__img2" src="pictures/section_about_img2.png" alt="Project photo">
+                    <div class="about__img-right about__images-group2">
+                        <img class="about__images-width" src="pictures/section_about_img2.png" alt="Project photo">
                     </div>
                 </div>
                 <div class="about__card">
                     <h2 class="about__title title-text"> About</h2>
-                    <span class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                    <p class="about__text">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
                         Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown
                         printer took a galley of type and scrambled it to make a type specimen book. It has survived not
                         only five centuries, but also the leap into electronic typesetting, remaining essentially
-                        unchanged.</span>
+                        unchanged.</p>
                     <div class="about__link">
                         <a href="#" class="about__link-btn section__btn section__btn--light">Read More &rarr;</a>
                     </div>
@@ -123,25 +119,16 @@
 
             <div class="mission__cards">
                 <div class="mission__card">
-                    <div class="mission__card-value">
-                        <p class="mission__card-number">1</p>
-                    </div>
+                    <p class="mission__card-number">1</p>
                     <div class="mission__text-container">
-                        <span class="mission__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            efficitur,
-                            lectus
-                            et facilisis placerat.</span>
+                        <p class="mission__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat.</p>
                     </div>
                 </div>
 
                 <div class="mission__card">
-                    <div class="mission__card-value">
-                        <p class="mission__card-number">2</p>
-                    </div>
+                    <p class="mission__card-number">2</p>
                     <div class="mission__text-container">
-                        <span class="mission__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                            efficitur,
-                            lectus et facilisis placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.</span>
+                        <p class="mission__card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed efficitur, lectus et facilisis placerat, magna mauris porttitor tortor, a auctor est felis ut nisl.</p>
                     </div>
                 </div>
             </div>
